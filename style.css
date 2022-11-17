@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.header{
+    width: 100%;
+    height: 200px;
+    background-color: #282828;
+}
+
+.baslik{
+    font-size: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.etkilesim{
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+#txtYazi{
+    width: 50%;
+    height: 70px;
+    background-color: #484848;
+    color: white;
+    border: none;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 15px;
+}
+
+#btnEkle{
+    width: 10%;
+    height: 70px;
+    background-color: #484848;
+    color: white;
+    border: none;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 15px;
+}
+
+.listItems{
+    height: 50px;
+}
+
+.close{
+    transition-duration: 0.3s;
+    cursor:pointer;
+}
+
+.close:hover{
+    color: maroon;
+}
+
+.rows{
+    background-color: #282828;
+    color: #fefefe;
+    font-size: 30px;
+    padding: 0 30px;
+    margin: 10px 0 0 0;
+    justify-content: space-between;
+    display: flex;
+}
